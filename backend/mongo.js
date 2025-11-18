@@ -7,7 +7,7 @@ const Policy = require('./models/Policy');
 const City = require("./models/City");
 const Institute = require("./models/Institute");
 
-const MONGO_URI = "mongodb+srv://mohsinpathan1352:DkrgAGllCmiQOSvt@nextstep.36f6e.mongodb.net/?retryWrites=true&w=majority&appName=NextStep";
+
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log(" Connected to MongoDB Atlas"))
